@@ -1,0 +1,5 @@
+a=input('What is your name? ')
+b=input('what is your family name? ')
+c=int(input('what is your age? '))
+d=input('what is your city of birth? ')
+print('your name is:' ,a,b,'\nyour age is: ',c,'\nyour city of birth its: ',d,)
