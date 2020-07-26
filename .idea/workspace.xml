@@ -9,11 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923365bc-71ca-4e5b-b249-54c65a78956c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asdfsd/Animel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asdfsd/Bus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asdfsd/Circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asdfsd/Objects1_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asdfsd/Lottery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asdfsd/Bus.py" beforeDir="false" afterPath="$PROJECT_DIR$/asdfsd/Bus.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asdfsd/Bus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/asdfsd/Lottery.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -84,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/asdfsd/Targil_1.py" />
         <option value="$PROJECT_DIR$/asdfsd/Targil_5.6.py" />
         <option value="$PROJECT_DIR$/asdfsd/Targil_2.py" />
         <option value="$PROJECT_DIR$/asdfsd/Targil_2.1.py" />
@@ -135,6 +141,7 @@
         <option value="$PROJECT_DIR$/asdfsd/Animel2.py" />
         <option value="$PROJECT_DIR$/asdfsd/Animel.py" />
         <option value="$PROJECT_DIR$/asdfsd/Bus.py" />
+        <option value="$PROJECT_DIR$/asdfsd/Lottery.py" />
       </list>
     </option>
   </component>
@@ -181,10 +188,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Bus">
+  <component name="RunManager" selected="Python.Lottery">
     <configuration name="Animel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Raphael2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,6 +274,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lottery" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Raphael2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asdfsd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdfsd/Lottery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Objects1_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Raphael2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,34 +337,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Targill_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Raphael2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asdfsd" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdfsd/Targill_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lottery" />
         <item itemvalue="Python.Bus" />
         <item itemvalue="Python.Animel" />
         <item itemvalue="Python.Circle" />
         <item itemvalue="Python.Objects1_1" />
-        <item itemvalue="Python.Targill_4" />
       </list>
     </recent_temporary>
   </component>
@@ -351,6 +358,21 @@
       <option name="presentableId" value="Default" />
       <updated>1594195064601</updated>
     </task>
+    <task id="LOCAL-00001" summary="sd">
+      <created>1595768529460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595768529460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sd">
+      <created>1595768773626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595768773626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -369,6 +391,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" weight="0.32908458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4889868" visible="true" weight="0.35341832" />
@@ -387,7 +410,8 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="sd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,9 +425,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/asdfsd/Targil7.3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/asdfsd/if4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -725,8 +746,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asdfsd/Bus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asdfsd/Lottery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

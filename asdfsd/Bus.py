@@ -33,4 +33,3 @@ while a!=0:
     print(buss1)
 
 
-#s
