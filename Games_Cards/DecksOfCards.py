@@ -9,7 +9,7 @@ class DecksOfCards:
             for value in range(2,15):
                 card1=Card(value,suit)
                 self.list1.append(card1)
-
+        self.newGame()
 
     def shuffle(self):
     # עירבוב חפיסת קלפים
@@ -19,15 +19,13 @@ class DecksOfCards:
     #תחילה בודק אם יש קלפים בחבילה ולאחר מכן מחזיר את הקלף במקום 0 ומוציא אותו מהחפיסה
         if len(self.list1) > 0:
             return self.list1.pop(0)
-
+        return None
     def newGame(self):
     # לוקחת חפיסה חדשה ומערבבת את הקלפים
-        self.__init__()
         self.shuffle()
 
     def show(self):
     # מציג את החפיסה
         print(self.list1)
 
-#d1=DecksOfCards()
-#d1.show()
+

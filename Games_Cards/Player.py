@@ -12,10 +12,8 @@ class Player:
         self.hand=[]
 
 
-    def setHand(self,deck,cards=5):
+    def setHand(self,deck):
     #נותנת לשחקן חבילת קלפים- ברירת מחדל 5 קלפים
-        if cards <=0:
-            self.cards=5
         for i in range(self.cards):
             self.hand.append(deck.dealone())
 
@@ -23,7 +21,7 @@ class Player:
     #תחילה בודק אם יש לשחקן קלפים בכלל, מערבב את החבילה ואז לוקח את הקלף הראשון
         if len(self.hand) > 0:
             shuffle(self.hand)
-            self.hands.pop(0)
+            return self.hand.pop(0)
         else:
             print('The Player dont have Cards!!!')
 
@@ -33,12 +31,15 @@ class Player:
 
     def reduceAmount(self,amount):
     # מורידה כמות כסף שהוזן מקופת השחקן
+        if amount < 0:
+            return amount == 0
         self.money-=amount
 
     def addAmount(self,amount):
     # מוסיפה כמות כסף שהוזן מקופת השחקן
-        self.money+=amount
-
+        if amount < 0:
+            return amount == 0
+        self.money += amount
     def __repr__(self):
     # מדפיסה את פרטי השחקן
         return f'The player {self.name}, the amount of money that he have:{self.money}, and the cards he have: {self.hand}\n'
