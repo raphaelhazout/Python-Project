@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="923365bc-71ca-4e5b-b249-54c65a78956c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/Card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games_Cards/CardsGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/CardsGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/DecksOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/DecksOfCards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/MainProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/MainProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/test_Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/test_Card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games_Cards/test_CardsGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/test_CardsGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/test_DecksOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/test_DecksOfCards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games_Cards/test_Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games_Cards/test_Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +51,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_CardsGame.test_CardsGame.test_new_game">
-    <configuration name="CardsGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Raphael2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Games_Cards" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games_Cards/CardsGame.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Targil4.0" type="PythonConfigurationType" factoryName="Python">
       <module name="Raphael2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +107,23 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_CardsGame.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Raphael2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Games_Cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Games_Cards/test_CardsGame.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_DecksOfCards.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Raphael2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_CardsGame.test_CardsGame.test_new_game" />
+        <item itemvalue="Python tests.pytest in test_CardsGame.py" />
         <item itemvalue="Python tests.pytest in test_Player.py" />
         <item itemvalue="Python tests.pytest for test_CardsGame.test_CardsGame.test_init" />
         <item itemvalue="Python tests.pytest in test_DecksOfCards.py" />
-        <item itemvalue="Python.CardsGame" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +182,8 @@
       <workItem from="1596004318668" duration="4279000" />
       <workItem from="1596020487095" duration="7966000" />
       <workItem from="1596089706821" duration="45125000" />
-      <workItem from="1596378675913" duration="3777000" />
+      <workItem from="1596378675913" duration="3822000" />
+      <workItem from="1596459350742" duration="2545000" />
     </task>
     <task id="LOCAL-00001" summary="sd">
       <created>1595768529460</created>
@@ -224,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596115506674</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sd">
+      <created>1596382461645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596382461645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -244,30 +240,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="sd" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="522" y="120" key="CommitChangelistDialog2" timestamp="1596115505672">
+    <state x="522" y="120" key="CommitChangelistDialog2" timestamp="1596382460931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="522" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596115505672" />
+    <state x="522" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596382460931" />
     <state x="1007" y="278" key="FileChooserDialogImpl" timestamp="1596017166369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1007" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596017166369" />
-    <state width="1384" height="390" key="GridCell.Tab.0.bottom" timestamp="1596381958948">
+    <state width="1384" height="325" key="GridCell.Tab.0.bottom" timestamp="1596463523060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1384" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596381958948" />
-    <state width="1384" height="390" key="GridCell.Tab.0.center" timestamp="1596381958947">
+    <state width="1384" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596463523060" />
+    <state width="1384" height="325" key="GridCell.Tab.0.center" timestamp="1596463523059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1384" height="390" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596381958947" />
-    <state width="1384" height="390" key="GridCell.Tab.0.left" timestamp="1596381958947">
+    <state width="1384" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596463523059" />
+    <state width="1384" height="325" key="GridCell.Tab.0.left" timestamp="1596463523059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1384" height="390" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596381958947" />
-    <state width="1384" height="390" key="GridCell.Tab.0.right" timestamp="1596381958947">
+    <state width="1384" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596463523059" />
+    <state width="1384" height="325" key="GridCell.Tab.0.right" timestamp="1596463523060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1384" height="390" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596381958947" />
+    <state width="1384" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596463523060" />
     <state x="1001" y="251" key="RollbackChangesDialog" timestamp="1596365462356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="384" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595925548473" />
-    <state x="489" y="285" key="Vcs.Push.Dialog.v2" timestamp="1596115511253">
+    <state x="489" y="285" key="Vcs.Push.Dialog.v2" timestamp="1596382463299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596115511253" />
+    <state x="489" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596382463299" />
     <state x="868" y="269" key="search.everywhere.popup" timestamp="1596373612030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,10 +299,11 @@
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_Player_Test_Player_test_set_hand.coverage" NAME="pytest for test_Player.Test_Player.test_set_hand Coverage Results" MODIFIED="1596368345444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_CardsGame_test_CardsGame_test_init.coverage" NAME="pytest for test_CardsGame.test_CardsGame.test_init Coverage Results" MODIFIED="1596381118229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_Player_Test_Player_test_set_hand2.coverage" NAME="pytest for test_Player.Test_Player.test_set_hand2 Coverage Results" MODIFIED="1596372107182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
-    <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_CardsGame_test_CardsGame_test_new_game.coverage" NAME="pytest for test_CardsGame.test_CardsGame.test_new_game Coverage Results" MODIFIED="1596381958938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
+    <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_CardsGame_test_CardsGame_test_new_game.coverage" NAME="pytest for test_CardsGame.test_CardsGame.test_new_game Coverage Results" MODIFIED="1596463523049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$DecksOfCards.coverage" NAME="DecksOfCards Coverage Results" MODIFIED="1596103768649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_DecksOfCards_test_DeckOfCards_test_new_game2.coverage" NAME="pytest for test_DecksOfCards.test_DeckOfCards.test_new_game2 Coverage Results" MODIFIED="1596365551811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_Player_Test_Player_test_add_amount3.coverage" NAME="pytest for test_Player.Test_Player.test_add_amount3 Coverage Results" MODIFIED="1596377868101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
+    <SUITE FILE_PATH="coverage/Raphael5$pytest_in_test_CardsGame_py.coverage" NAME="pytest in test_CardsGame.py Coverage Results" MODIFIED="1596462179953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_Player_Test_Player_test_reduce_amount2.coverage" NAME="pytest for test_Player.Test_Player.test_reduce_amount2 Coverage Results" MODIFIED="1596377590455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_Player_Test_Player_test_add_card.coverage" NAME="pytest for test_Player.Test_Player.test_add_card Coverage Results" MODIFIED="1596374908621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />
     <SUITE FILE_PATH="coverage/Raphael5$pytest_for_test_Player_Test_Player_test_get_card2.coverage" NAME="pytest for test_Player.Test_Player.test_get_card2 Coverage Results" MODIFIED="1596373980404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games_Cards" />

@@ -7,6 +7,12 @@ class CardsGame:
 
     def __init__(self,numcards):
     # המתודה מגדירה ארבע שחקנים וחבילת קלפים אחת
+        if type (numcards)!=int:
+            numcards=5
+        if numcards>13:
+            numcards=13
+        if numcards<1:
+            numcards=5
         self.numcards=numcards
         self.deck = DecksOfCards()
         self.players=[]

@@ -8,10 +8,7 @@ from unittest.mock import patch
 
 class test_CardsGame(TestCase):
 
-    def test_constractur(self):
-        cards1 = CardsGame(5)
-        deck = DecksOfCards()
-        cards1.players.append(Player('Raphael', 5000, 5))
-
-        self.assertEqual(cards1.deck, 5)
-
+    def test_Constructor(self):
+        with patch('Games_Cards.CardsGame.CardsGame.newGame') as mockdeal1:
+            game1=CardsGame(0)
+            self.assertEqual(game1.numcards,5)
