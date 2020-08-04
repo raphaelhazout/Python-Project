@@ -5,6 +5,7 @@ from Games_Cards.Player import Player
 from Games_Cards.CardsGame import CardsGame
 from unittest.mock import patch
 class Test_Player(TestCase):
+    # בודק אם חילקתי 5 קלפים אז אורך היד היא באמת 5
     def test_set_hand(self):
         player1=Player('avi',1200,5)
         deck1=DecksOfCards()
@@ -12,6 +13,7 @@ class Test_Player(TestCase):
         self.assertEqual(len(player1.hand) , 5)
 
     def test_set_hand2(self):
+    # בדיקה בסיסית שהסט עובד
         with patch('Games_Cards.DecksOfCards.DecksOfCards.dealone') as mockdeal1:
             card2=Card(8,'♥')
             mockdeal1.return_value=card2
@@ -27,6 +29,7 @@ class Test_Player(TestCase):
        self.assertTrue(len(player1.hand) == 0)
 
     def test_get_card2(self):
+    # בודק אם כשאני מושך קלף מהשחקן אז יורד לו הכמות באחד
         player1 = Player('Raphael', 5000,5)
         deck=DecksOfCards()
         player1.setHand(deck)
@@ -35,6 +38,7 @@ class Test_Player(TestCase):
 
 
     def test_add_card(self):
+    # בודק אם כשאני מוסיף לו קלף אז הכמות עולה באחד
         player1=Player('Raphael', 5000,5)
         deck = DecksOfCards()
         player1.setHand(deck)
@@ -43,7 +47,7 @@ class Test_Player(TestCase):
         self.assertEqual(len(player1.hand), 6)
 
     def test_add_card2(self):
-
+    # המוק מחזיר לי ערך של קלף וכשאני מוסיף קלף אז הוא
         with patch('Games_Cards.DecksOfCards.DecksOfCards.dealone') as mockdeal1:
             card2=Card(8,'♥')
             mockdeal1.return_value=card2
@@ -55,6 +59,7 @@ class Test_Player(TestCase):
 
 
     def test_reduce_amount(self):
+    # בודק כשאני מוריד את הכמות כסף באלף היא אכן יורדת
         player1=Player('Raphael', 5000,5)
         deck = DecksOfCards()
         player1.reduceAmount(1000)
@@ -74,13 +79,14 @@ class Test_Player(TestCase):
         self.assertTrue(player1.money == 5000)
 
     def test_add_amount(self):
-
+        # בודק כשאני מוסיף את הכמות כסף באלף היא אכן יורדת
         player1 = Player('Raphael', 5000, 5)
         deck = DecksOfCards()
         player1.addAmount(1000)
         self.assertEqual(player1.money , 6000)
 
     def test_add_amount2(self):
+    # בודק אם אני לא מוסיף כסף אז הערך של הכסף נשאר אותו דבר
         player1 = Player('Raphael', 5000, 5)
         deck = DecksOfCards()
         player1.addAmount(0)
@@ -88,6 +94,7 @@ class Test_Player(TestCase):
 
 
     def test_add_amount3(self):
+    #בודק אם אני מוסיף מינוס אז לא יורד כלום
         player1 = Player('Raphael', 5000, 5)
         deck = DecksOfCards()
         player1.addAmount(-10)

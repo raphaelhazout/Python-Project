@@ -5,7 +5,7 @@ from random import randint
 
 class CardsGame:
 
-    def __init__(self,numcards):
+    def __init__(self,name,numcards):
     # המתודה מגדירה ארבע שחקנים וחבילת קלפים אחת
         if type (numcards)!=int:
             numcards=5
@@ -18,7 +18,7 @@ class CardsGame:
         self.players=[]
         a=randint(5000,10000)
         for i in range(4):
-            self.players.append(Player(input('Whats the name of the player?'),a,numcards))
+            self.players.append(Player(name[i],a,numcards))
         self.newGame()
 
     def newGame(self):
@@ -29,3 +29,6 @@ class CardsGame:
 
     def __repr__(self):
         return f'{self.players}'
+
+#cards1=CardsGame('d' 'e' 'a' 'r',5)
+#print(cards1)
