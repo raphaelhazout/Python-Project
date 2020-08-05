@@ -2,7 +2,7 @@ from Games_Cards.Player import Player
 from Games_Cards.DecksOfCards import DecksOfCards
 from Games_Cards.Card import Card
 from Games_Cards.CardsGame import CardsGame
-game1 = CardsGame('d' 'e' 'a' 'r',5)
+game1 = CardsGame(['avi','yosi','amit','raphael'],5)
 print(game1)
 bet=0
 list1=[]

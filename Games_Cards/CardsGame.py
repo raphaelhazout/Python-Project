@@ -16,9 +16,9 @@ class CardsGame:
         self.numcards=numcards
         self.deck = DecksOfCards()
         self.players=[]
-        a=randint(5000,10000)
+        scum=randint(5000,10000)
         for i in range(4):
-            self.players.append(Player(name[i],a,numcards))
+            self.players.append(Player(name[i],scum,numcards))
         self.newGame()
 
     def newGame(self):
