@@ -1,4 +1,4 @@
-def hanaha(a,b):
+def Discount(a,b):
     if a<10:
         return 100
     if 10<a<18 and b!='Jerusalem':
@@ -10,10 +10,10 @@ def hanaha(a,b):
     if a>60:
         return 50
     return 0
-def hanaha2(d,b):
+def Discount2(d,b):
     return d-(d*b/100)
 
 a=int(input('whats your age? '))
 b=input('where are you live? ')
 d=int(input('whats the price? '))
-print(hanaha2(d,hanaha(a,b)))
+print(Discount2(d,Discount(a,b)))
